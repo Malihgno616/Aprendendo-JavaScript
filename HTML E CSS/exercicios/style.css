@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+  background-color: lightblue;
+}
+
+h1,h2 {
+  color: white;
+  text-align: center;
+}
+
+p,
+code {
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: center;
+}
+

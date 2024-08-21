@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+  text-align: justify;
+  font-size: 1.25rem;
+  background-color: linear-gradient(90deg #B67977);
+  
+}
+
+header,
+h1,
+h2,
+h3 {
+  background-color: #f76868;
+}
+
+p{
+  color: red;
+  border: 1px solid black;
+}
+

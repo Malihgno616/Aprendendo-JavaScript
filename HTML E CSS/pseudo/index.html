@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pseudo</title>
+  <style>
+    body{
+      font: normal 1em Arial, Helvetica, sans-serif;
+      border-top: 4px solid rgb(175, 88, 88);
+      border-bottom:4px solid #A82518;
+    
+    }
+    a{
+      font-weight: bold;
+      text-decoration: none;
+      color: red;
+    }
+
+    a:visited {
+      color: darkred;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    .especial:hover {
+      color: white;
+      background-color: black;
+      text-decoration: none;
+    }
+
+    .especial:before {
+      content: '>>';
+      font-weight: lighter;
+    }
+
+    .especial:after {
+      content: '<<';
+      font-weight: lighter;
+    }
+
+    #titulo {
+      font-size: 3em;
+      text-align: center;
+      background-color:#A82518 ;
+
+    }
+
+    .secundario {
+      font-size: 1.5em;
+      color: rgb(216, 63, 63);
+    }
+    
+    .text {
+      text-align: justify;
+    }
+
+
+  </style>
+</head>
+<body>
+    <h1 id="titulo">Estilo com pseudo</h1>
+    <h2 class="secundario">Lorem</h2>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora labore maiores quibusdam voluptas repudiandae in obcaecati quisquam, possimus eaque inventore perferendis provident, fuga dolorum ab repellendus deserunt adipisci praesentium!Lorem</p>
+    <h2 class="secundario">Lorem</h2>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore saepe facilis vitae quis impedit fugit, minus dicta, perferendis possimus laudantium ad illo laboriosam sint quaerat hic veritatis animi ullam minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet commodi voluptatem quae voluptatibus dolore a et vero sed doloremque ratione facere praesentium voluptate sequi, accusamus saepe, doloribus dicta eum rem.</p>
+    <p class="text">
+       Para Aprender HTML5 e CSS3, acesso o 
+       <a href="#">
+        GitHub do Guanabara
+       </a>
+    </p class="text">
+    <p class="text"> 
+      Se quiser conhecer mais sobre os padrões, cisite o site do
+      <a href="#">
+                W3CSCHOOL
+      </a>
+    </p>
+    <p class="text">para acompanhar os cursos, acesse o
+      <a class="especial" href="#">
+        canal do Guanabara.
+      </a>
+    </p>
+</body>
+</html>

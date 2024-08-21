@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: justify;
+    background-image: linear-gradient(90deg, red 35%, white 20%);
+}
+
+p {
+  font-weight: 200;
+ 
+}
